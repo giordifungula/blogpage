@@ -1,0 +1,54 @@
+{
+    "pokemon": [
+      {
+        "id": 1,
+        "name": "Charizard",
+        "image": "https://cdn.bulbagarden.net/upload/7/7e/006Charizard.png"
+      },
+      {
+        "id": 2,
+        "name": "Squirtle",
+        "image": "https://cdn.bulbagarden.net/upload/thumb/3/39/007Squirtle.png/250px-007Squirtle.png"
+      },
+      {
+        "id": 3,
+        "name": "Butterfree",
+        "image": "https://cdn.bulbagarden.net/upload/thumb/d/d1/012Butterfree.png/250px-012Butterfree.png"
+      },
+      {
+        "id": 4,
+        "name": "Pikachu",
+        "image": "https://cdn.bulbagarden.net/upload/thumb/0/0d/025Pikachu.png/250px-025Pikachu.png"
+      },
+      {
+        "id": 5,
+        "name": "Arcanine",
+        "image": "https://cdn.bulbagarden.net/upload/thumb/b/b8/059Arcanine.png/250px-059Arcanine.png"
+      },
+      {
+        "id": 6,
+        "name": "Gengar",
+        "image": "https://cdn.bulbagarden.net/upload/thumb/c/c6/094Gengar.png/250px-094Gengar.png"
+      },
+      {
+        "id": 7,
+        "name": "Kangaskhan",
+        "image": "https://cdn.bulbagarden.net/upload/thumb/4/4e/115Kangaskhan.png/250px-115Kangaskhan.png"
+      },
+      {
+        "id": 8,
+        "name": "Gyarados",
+        "image": "https://cdn.bulbagarden.net/upload/thumb/4/41/130Gyarados.png/250px-130Gyarados.png"
+      },
+      {
+        "id": 9,
+        "name": "Eevee",
+        "image": "https://cdn.bulbagarden.net/upload/thumb/e/e2/133Eevee.png/250px-133Eevee.png"
+      },
+      {
+        "id": 10,
+        "name": "Mewtwo",
+        "image": "https://cdn.bulbagarden.net/upload/thumb/7/78/150Mewtwo.png/250px-150Mewtwo.png"
+      }
+    ]
+  }
