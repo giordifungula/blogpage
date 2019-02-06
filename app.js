@@ -7,9 +7,9 @@ var bodyParser = require('body-parser');
 
 var indexRouter = require('./routes/index');
 var createRouter = require('./routes/create');
-// var viewRouter = require('./routes/view');
-// var updateRouter = require('./routes/update');
-// var deleteRouter = require('./routes/delete');
+var viewRouter = require('./routes/view');
+var updateRouter = require('./routes/update');
+var deleteRouter = require('./routes/delete');
 
 // view engine setup
 app.set('views', path.join(__dirname, 'views'));
@@ -29,9 +29,9 @@ app.use(express.urlencoded({
 //register routes after middleware
 app.use('/', indexRouter);
 app.use('/create', createRouter);
-// app.use('/view', viewRouter);
-// app.use('/update', updateRouter);
-// app.use('/delete', deleteRouter);
+app.use('/view', viewRouter);
+app.use('/update', updateRouter);
+app.use('/delete', deleteRouter);
 
 module.exports = app;
 app.listen(8080);
