@@ -2,13 +2,13 @@
   "pokemon": [
     {
       "id": 1,
-      "name": "Charizard",
-      "image": "https://cdn.bulbagarden.net/upload/7/7e/006Charizard.png"
+      "name": "Dog",
+      "image": "https://cdn.bulbagarden.net/upload/thumb/d/d1/012Butterfree.png/250px-012Butterfree.png"
     },
     {
       "id": 2,
-      "name": "Squirtle",
-      "image": "https://cdn.bulbagarden.net/upload/thumb/3/39/007Squirtle.png/250px-007Squirtle.png"
+      "name": "Isaac",
+      "image": "https://cdn.bulbagarden.net/upload/thumb/d/d1/012Butterfree.png/250px-012Butterfree.png"
     },
     {
       "id": 3,
