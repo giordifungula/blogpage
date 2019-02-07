@@ -21,15 +21,15 @@ router.post('/', function(req, res, next) {
     uri: "http://localhost:8000/pokemon",
     method: "POST",
     form: {
-        id: id,
-        name: req.body.name,
+        title: title,
+        author: req.body.author,
         image: req.body.image_url,
     }
     }, function(error, response, body) {
         // console.log(body);
         //send a response message
         res.render('create', {message: 'Successfully Added.'});
-        res.body('view');
+        // res.body('view');
     });
 })
 

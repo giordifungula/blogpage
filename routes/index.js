@@ -12,7 +12,7 @@ var Pokemon = require('../db.json');
 router.get('/', function (req, res, next) {
 
     let data = {
-        title: 'All Pokemon',
+        title: 'All Posts',
         pokemon: Pokemon, 
         message: false,
     }
