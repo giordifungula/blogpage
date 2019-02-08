@@ -26,7 +26,7 @@ router.post('/:pokeId', function(req, res, next) {
     uri: "http://localhost:8000/posts/"+ req.params.pokeId,
     method: "PATCH",
     form: {
-        title: title,
+        title: req.body.title,
         author: req.body.author,
         image: req.body.image_url,
     }
