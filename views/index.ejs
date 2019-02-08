@@ -16,6 +16,8 @@
 
         body {
     font-family: 'Hind', sans-serif;
+    background: url('https://bceagles.com/images/2015/9/15/MSOC_FIELD30DART_14_.JPG?width=600&height=360&mode=crop');
+
   }
   
   .navbar-brand {
@@ -89,6 +91,11 @@
     max-width: 500px;
     margin: 0 auto !important;
   }
+
+  .main-section{
+      /* background: url('https://bceagles.com/images/2015/9/15/MSOC_FIELD30DART_14_.JPG?width=600&height=360&mode=crop'); */
+
+  }
     </style>
 </head>
 <body>
@@ -133,9 +140,8 @@
                   </h1>
                   <div class="tags-search">
                     <span class="tag is-rounded is-light">Football News</span>
-                     <span class="tag is-rounded is-light">Football Gossip</span>
+                    <span class="tag is-rounded is-light">Football Gossip</span>
                     <span class="tag is-rounded is-light">Football Infomation</span>
-        
                   </div>
                 </div>
               </div>
@@ -143,7 +149,7 @@
           </div>
         </section>
             </div>
-    <div class="container">
+    <div class="container main-section">
         <% if (title) { %>
             <h2><%= title %></h2>
         <% } %>
@@ -172,7 +178,7 @@
                     </div> 
                 </a>
 
-                <% pokemon.pokemon.forEach(function(post){ %>
+                <% posts.posts.forEach(function(post){ %>
                     <a href="/view/<%-post%>">
                         <div class="col-xs-6 col-md-2">
                             <div class="panel panel-default">
@@ -192,7 +198,7 @@
 
             </div>
             <div class="panel-footer text-center">
-                <p>All rights reserved 2018 | Nate.</p>
+                <p>All rights reserved 2019 | Giordi.</p>
             </div>
         </div>
     </div>

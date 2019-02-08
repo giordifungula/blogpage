@@ -1,7 +1,7 @@
 var express = require('express');
 var router = express.Router();
 
-var Pokemon = require('../db.json');
+var Post = require('../db.json');
 
 /* GET home page. */
 // router.get('/', function(req, res, next) {
@@ -13,7 +13,7 @@ router.get('/', function (req, res, next) {
 
     let data = {
         title: 'All Posts',
-        pokemon: Pokemon, 
+        posts: Post, 
         message: false,
     }
 

@@ -8,7 +8,7 @@
     <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
 
     <style>
-        body { padding-top:15px; background-color: #ccc;}
+        /* body { padding-top:15px; background-color: rgb(238, 6, 6);} */
         img { width: 100%;}
     </style>
 </head>
@@ -17,28 +17,28 @@
     <div class="container">
         <div class="panel panel-danger">
             <div class="panel panel-heading text-center">
-                <h3 class="text-center"><%= poke.name %></h3>
+                <h3 class="text-center"><%= post.title %></h3>
             </div>
             <div class="panel-body" id="all">
 
                 <div class="row">
                     <div class="col-xs-12 col-sm-4 col-sm-offset-4">
-                        <img src="<%= poke.image %>">
+                        <img src="<%=  %>">
                     </div>
                     <div class="col-xs-12 col-sm-4 col-sm-offset-4">
                         <br>
-                        <a href="/update/<%= poke.id %>" class="btn btn-block btn-primary">Update</a>
+                        <a href="/update/<%=  %>" class="btn btn-block btn-primary">Update</a>
                         <br>
-                        <a href="/delete/<%= poke.id %>" class="btn btn-block btn-danger">Delete</a>
+                        <a href="/delete/<%=  %>" class="btn btn-block btn-danger">Delete</a>
                     </div>
                 </div>  
 
             </div>
             <div class="panel-footer text-center">
-                <p>All rights reserved 2018 | Nate.</p>
+                <p>All rights reserved 2019 | Giordi.</p>
             </div>
         </div>
     </div>
-
+  
 </body>
 </html>

@@ -1,6 +1,6 @@
 var express = require('express');
 var router = express.Router();
-var Pokemon = require('../db.json');
+var Post = require('../db.json');
 var request = require("request");
 
 /* GET create page. */
@@ -14,11 +14,11 @@ router.post('/', function(req, res, next) {
     res.send(req.body);
 
     //set a new dynamic id
-    var id = Pokemon.pokemon.length;
+    var id = Post.posts.length;
 
     //make a post request to our database
     request({
-    uri: "http://localhost:8000/pokemon",
+    uri: "http://localhost:8000/posts",
     method: "POST",
     form: {
         title: title,
